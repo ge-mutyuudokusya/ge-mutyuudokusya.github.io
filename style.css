@@ -1,0 +1,69 @@
+body {
+    font-family: 'Kosugi Maru', sans-serif;
+    background: linear-gradient(135deg, #FF9A9E, #FAD0C4);
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  #waveform {
+    margin: 20px auto;
+    width: 90%;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    margin: 0 10px;
+    font-family: 'Kosugi Maru', sans-serif;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-primary {
+    background: linear-gradient(135deg, #7F7FD5, #86A8E7, #91EAE4);
+    color: white;
+  }
+  
+  .btn-danger {
+    background: linear-gradient(135deg, #F85032, #E73827);
+    color: white;
+  }
+  
+  .btn-success {
+    background: linear-gradient(135deg, #56AB2F, #A8E063);
+    color: white;
+  }
+  
+  #region-info, #download-link {
+    text-align: center;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
